@@ -8,6 +8,8 @@ The file contains **0 bytes**. The web page itself is not stored inside it. Inst
 
 > The file contains nothing. It still knows where to go.
 
+![ZERO BOOKMARK](ZERO-BOOKMARK-screenshot.png)
+
 ## How it works
 
 1. Open any `http://` or `https://` page.
