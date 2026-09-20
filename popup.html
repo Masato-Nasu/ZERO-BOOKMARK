@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>ZERO BOOKMARK</title>
+  <link rel="stylesheet" href="popup.css">
+</head>
+<body>
+  <main>
+    <header>
+      <div class="brand">ZERO BOOKMARK</div>
+      <div class="byte">0 bytes</div>
+    </header>
+
+    <section class="save-panel">
+      <div class="eyebrow">CURRENT PAGE</div>
+      <div id="page-title" class="page-title">Reading…</div>
+      <div id="page-url" class="page-url"></div>
+
+      <label for="name-input">FILE NAME</label>
+      <input id="name-input" type="text" autocomplete="off" spellcheck="false" placeholder="Name this page">
+      <button id="save-button" class="primary" type="button">SAVE AS 0 BYTE</button>
+      <div id="save-status" class="status" aria-live="polite"></div>
+    </section>
+
+    <div class="rule"></div>
+
+    <section class="open-panel">
+      <div class="eyebrow">OPEN</div>
+      <button id="open-button" class="secondary" type="button">OPEN 0 BYTE FILE</button>
+      <input id="file-input" type="file" hidden>
+      <div id="drop-zone">or drop a 0 byte file here</div>
+      <div id="open-status" class="status" aria-live="polite"></div>
+    </section>
+
+    <footer>
+      <span>Nothing inside.</span>
+      <span>The name knows where to go.</span>
+    </footer>
+  </main>
+  <script type="module" src="popup.js"></script>
+</body>
+</html>
